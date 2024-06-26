@@ -56,27 +56,27 @@ $sidesSize: calc(clamp(150px, 40vw, 400px) / 2);
         }
         &.back {
           background-color: #2ca02c;
-          background-image: "IMG_1490.jpg";
+          background-image: "IMG_1035.jpg";
           transform: rotateY(180deg) translatÏeZ($sidesSize);
         }
         &.left {
           background-color: #1f77b4;
-          background-image: "IMG_1535.JPG";
+          background-image: "IMG_1036.JPG";
           transform: rotateY(-90deg) translateZ($sidesSize);
         }
         &.right {
           background-color: #d62728;
-          background-image: "IMG_1545.jpg";
+          background-image: "IMG_1037.jpg";
           transform: rotateY(90deg) translateZ($sidesSize);
         }
         &.top {
           background-color: #9467bd;
-          background-image: "IMG_2630.jpg";
+          background-image: "IMG_1038.jpg";
           transform: rotateX(90deg) translateZ($sidesSize);
         }
         &.bottom {
           background-color: #8c564b;
-          background-image: "IMG_1546.jpg";
+          background-image: "IMG_1039.jpg";
           transform: rotateX(-90deg) translateZ($sidesSize);
         }
       }
