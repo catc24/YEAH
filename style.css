@@ -51,39 +51,37 @@ $sidesSize: calc(clamp(150px, 40vw, 400px) / 2);
 
         &.front {
           background-color: #ff7f0e;
-          background-image: "IMG_1034.jpg";
+          background-image: url("https://yeah-delta.vercel.app/IMG_1034.png");
           transform: translateZ($sidesSize);
         }
         &.back {
           background-color: #2ca02c;
-          background-image: "IMG_1035.jpg";
+          background-image: url("https://yeah-delta.vercel.app/IMG_1035.png");
           transform: rotateY(180deg) translatÏeZ($sidesSize);
         }
         &.left {
           background-color: #1f77b4;
-          background-image: "IMG_1036.JPG";
+          background-image: url("https://yeah-delta.vercel.app/IMG_1036.png");
           transform: rotateY(-90deg) translateZ($sidesSize);
         }
         &.right {
           background-color: #d62728;
-          background-image: "IMG_1037.jpg";
+          background-image: url("https://yeah-delta.vercel.app/IMG_1037.png");
           transform: rotateY(90deg) translateZ($sidesSize);
         }
         &.top {
           background-color: #9467bd;
-          background-image: "IMG_1038.jpg";
+          background-image: url("https://yeah-delta.vercel.app/IMG_1038.png");
           transform: rotateX(90deg) translateZ($sidesSize);
         }
         &.bottom {
           background-color: #8c564b;
-          background-image: "IMG_1039.jpg";
+          background-image: url("https://yeah-delta.vercel.app/IMG_1039.png");
           transform: rotateX(-90deg) translateZ($sidesSize);
         }
       }
     }
 
-
-    
     @keyframes rotate {
       from {
         transform: rotateY(0deg) rotateX(0deg);
